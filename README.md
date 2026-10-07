@@ -1,6 +1,6 @@
 # MPU6050-Based Step Counter
 
-![Prototype](images/prototype_front.jpg)
+![Prototype](images/wearable_prototype.jpg)
 
 ## Overview
 
@@ -67,7 +67,7 @@ A filtering stage is applied to improve signal quality before step detection.
 
 The processed acceleration signal is evaluated using a threshold-based detection method.
 
-![Acceleration Filtering](images/acceleration_filtering.png)
+![Acceleration Filtering](Images/acceleration_filtering.png)
 
 
 ---
@@ -86,7 +86,7 @@ The main processing steps are:
 6. Increment step counter
 
 
-![Step Detection](images/filtered_acceleration_step_detection.jpg)
+![Step Detection](Images/filtered_acceleration_step_detection.jpg)
 
 
 ---
@@ -103,7 +103,7 @@ The prototype was assembled on a breadboard and integrated with:
 
 ## Hardware Prototype
 
-![Prototype](images/prototype_front.jpg)
+![Prototype](Images/prototype_front.jpg)
 
 
 ## Wearable Implementation
@@ -113,7 +113,7 @@ The prototype was assembled on a breadboard and integrated with:
 
 ## Wiring Overview
 
-![System Wiring](images/system_wiring.png)
+![System Wiring](Images/system_wiring.png)
 
 
 ---
