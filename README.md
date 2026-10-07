@@ -1,6 +1,6 @@
 # MPU6050-Based Step Counter
 
-![Prototype](images/wearable_prototype.jpg)
+![Prototype](Images/wearable_prototype.jpg)
 
 ## Overview
 
@@ -54,7 +54,7 @@ The MPU6050 sensor measures acceleration along three axes:
 
 The sensor communicates with the Arduino through the I²C interface.
 
-![Acceleration Axes](images/accelerometer_axes.jpg)
+![Acceleration Axes](Images/accelerometer_axes.jpg)
 
 
 ---
@@ -108,7 +108,7 @@ The prototype was assembled on a breadboard and integrated with:
 
 ## Wearable Implementation
 
-![Wearable Prototype](images/wearable_prototype.jpg)
+![Wearable Prototype](Images/wearable_prototype.jpg)
 
 
 ## Wiring Overview
