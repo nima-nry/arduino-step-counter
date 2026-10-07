@@ -1,6 +1,9 @@
 # MPU6050-Based Step Counter
 
-![Prototype](Images/wearable_prototype.jpg)
+<p align="center">
+  <img src="Images/wearable_prototype.jpg" width="500">
+</p>
+
 
 ## Overview
 
@@ -44,7 +47,8 @@ The project focuses on practical implementation of an embedded motion sensing sy
 
 The overall system consists of three main stages:
 
-### 1. Motion Data Acquisition
+
+## 1. Motion Data Acquisition
 
 The MPU6050 sensor measures acceleration along three axes:
 
@@ -54,12 +58,15 @@ The MPU6050 sensor measures acceleration along three axes:
 
 The sensor communicates with the Arduino through the I²C interface.
 
-![Acceleration Axes](Images/accelerometer_axes.jpg)
+
+<p align="center">
+  <img src="Images/accelerometer_axes.jpg" width="700">
+</p>
 
 
 ---
 
-### 2. Signal Processing
+## 2. Signal Processing
 
 Raw acceleration signals contain motion noise and high-frequency disturbances.
 
@@ -67,26 +74,31 @@ A filtering stage is applied to improve signal quality before step detection.
 
 The processed acceleration signal is evaluated using a threshold-based detection method.
 
-![Acceleration Filtering](Images/acceleration_filtering.png)
+
+<p align="center">
+  <img src="Images/acceleration_filtering.png" width="750">
+</p>
 
 
 ---
 
-### 3. Step Detection Algorithm
+## 3. Step Detection Algorithm
 
 The step detection algorithm identifies walking patterns by detecting significant acceleration variations.
 
 The main processing steps are:
 
-1. Read acceleration data from MPU6050
-2. Calculate motion magnitude
-3. Apply filtering
-4. Compare signal with adaptive threshold
-5. Detect valid peaks
-6. Increment step counter
+1. Read acceleration data from MPU6050  
+2. Calculate motion magnitude  
+3. Apply filtering  
+4. Compare signal with adaptive threshold  
+5. Detect valid peaks  
+6. Increment step counter  
 
 
-![Step Detection](Images/filtered_acceleration_step_detection.jpg)
+<p align="center">
+  <img src="Images/filtered_acceleration_step_detection.jpg" width="750">
+</p>
 
 
 ---
@@ -103,17 +115,26 @@ The prototype was assembled on a breadboard and integrated with:
 
 ## Hardware Prototype
 
-![Prototype](Images/prototype_front.jpg)
+
+<p align="center">
+  <img src="Images/prototype_front.jpg" width="600">
+</p>
 
 
 ## Wearable Implementation
 
-![Wearable Prototype](Images/wearable_prototype.jpg)
+
+<p align="center">
+  <img src="Images/wearable_prototype.jpg" width="500">
+</p>
 
 
 ## Wiring Overview
 
-![System Wiring](Images/system_wiring.png)
+
+<p align="center">
+  <img src="Images/system_wiring.png" width="750">
+</p>
 
 
 ---
@@ -126,18 +147,19 @@ The measured acceleration signals demonstrate clear periodic patterns correspond
 
 The filtering algorithm improves the signal quality and enables reliable step detection.
 
+
 ---
 
 # Video Demonstration
 
 A demonstration video of the working prototype is available below:
 
-[Project Demo Video](video/demo_link.txt)
+[▶ Watch Project Demonstration](video/demo_link.txt)
 
 
 ---
 
-# Report
+# Technical Report
 
 The complete technical report including:
 
@@ -155,7 +177,8 @@ is available here:
 
 # Tools & Technologies
 
-### Hardware
+
+## Hardware
 
 - Arduino UNO R3
 - MPU6050 IMU
@@ -163,13 +186,13 @@ is available here:
 - Li-ion battery system
 
 
-### Software
+## Software
 
 - Arduino IDE
 - MATLAB (Signal analysis and visualization)
 
 
-### Concepts
+## Concepts
 
 - Embedded Systems
 - Sensor Fusion
@@ -199,6 +222,7 @@ is available here:
 
 Mechanical Engineering Student  
 Sharif University of Technology
+
 
 Interested in:
 
