@@ -117,7 +117,7 @@ The prototype was assembled on a breadboard and integrated with:
 
 
 <p align="center">
-  <img src="Images/prototype_front.jpg" width="600">
+  <img src="Images/prototype_front.jpg" width="450">
 </p>
 
 
