@@ -1,7 +1,7 @@
 # MPU6050-Based Step Counter
 
 <p align="center">
-  <img src="Images/wearable_prototype.jpg" width="500">
+  <img src="Images/wearable_prototype.jpg" width="400">
 </p>
 
 
@@ -97,7 +97,7 @@ The main processing steps are:
 
 
 <p align="center">
-  <img src="Images/filtered_acceleration_step_detection.jpg" width="750">
+  <img src="Images/filtered_acceleration_step_detection.jpg" width="650">
 </p>
 
 
@@ -163,7 +163,7 @@ The complete technical report including:
 
 is available here:
 
-[Project Report](Report/MPU6050_Step_Counter_Project_Report.pdf)
+[Project Report](Report/MPU6050_Step_Counter_Project.pdf)
 
 
 ---
