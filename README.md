@@ -147,7 +147,7 @@ The filtering algorithm improves the signal quality and enables reliable step de
 
 A demonstration video of the working prototype is available below:
 
-[▶ Watch Project Demonstration](video/demo_link.txt)
+[▶ Watch Project Demonstration](https://drive.google.com/file/d/1lsXsk7-6512XDgkxANHcplE4R8M0C8Od/view?usp=sharing)
 
 
 ---
