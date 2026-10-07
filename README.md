@@ -121,13 +121,6 @@ The prototype was assembled on a breadboard and integrated with:
 </p>
 
 
-## Wearable Implementation
-
-
-<p align="center">
-  <img src="Images/wearable_prototype.jpg" width="500">
-</p>
-
 
 ## Wiring Overview
 
